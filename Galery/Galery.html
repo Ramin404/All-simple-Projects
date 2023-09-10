@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="./FF.CSS">
+</head>
+
+<body>
+  <div class="tam">
+    <div class="bas">
+      <div class="bas1">
+        <h2>Gallery</h2>
+      </div>
+      <div class="bas2">
+        <nav>
+          <a href="#">Main</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Sign Up</a>
+          <button class="ada">Log in</button>
+        </nav>
+      </div>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"
+      style=" background-image: url(./adult_alone_art_backpack_black_and_white_boy_cap_casual-1512707.jpg!d); background-repeat: no-repeat; background-size: cover;">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="logi">
+            <h2>Log in</h2>
+            <input type="text" class="inname" placeholder="Number or Email"><br>
+            <input type="password" class="inpass" placeholder="Password" id="myInput"><br>
+            <p
+              style=" margin-left: 68px; margin-top: 14px; font-size: 16px; font-family: sans-serif; color: rgb(255, 255, 255); cursor: pointer;">
+              <input type="checkbox" onclick="myFunction()"> Show password </p>
+            <p
+              style=" margin-left: 200px; margin-top: 14px; font-size: 16px; font-family: sans-serif; color: rgb(255, 255, 255); cursor: pointer;">
+              Forget password?</p>
+            <button>Log in</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="about">
+            <h2>About</h2>
+            <p>.Hello, my name is Ramin, the creator of this site.<br> You can post any pictures you like on this site.
+              <br>
+              The pictures you like will be shared on the site. <br>
+              You can earn income through this site.<br> Thank you for your attention.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="contact">
+            <h2>Contact</h2>
+            <p>Number-> (+994) 13 777 01 03 </p>
+            <p>Gmail-> rasadiqov@net.com</p>
+            <p>Facebook-> <a href=""><img src="./icons8-facebook-50.png" alt=""
+                  style="margin-left: 40px; margin-bottom: 10px;"></a> </p>
+            <p>Instagram-> <a href=""><img src="./icons8-instagram-50.png" alt=""></a> </p>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"><span
+            class="carousel-control-prev-icon"></span></a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next"><span
+            class="carousel-control-next-icon"></span></a>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </div>
+    <div class="gal">
+      <h1>Gallery</h1>
+    </div>
+
+
+    <div class="agqara">
+      <div class="ad ad1">
+
+        <h1>Nature</h1>
+        <a href="https://preview.colorlib.com/#photosen" style="margin-right: 56px;"><button>More photos</button></a>
+
+      </div>
+      <div class="ad ad2">
+        <h1>Portrait</h1>
+        <a href="https://preview.colorlib.com/#photosen" style="margin-right: 56px;"><button>More photos</button></a>
+      </div>
+      <div class="ad ad3">
+        <h1>Architecture</h1>
+        <a href="https://preview.colorlib.com/#photosen" style="margin-right: 56px;"><button>More photos</button></a>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+</body>
+
+</html>
