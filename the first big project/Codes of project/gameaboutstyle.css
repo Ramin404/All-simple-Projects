@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.head{
+    height: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    color: white;
+    background-color: black;
+}
+.head1{
+    width: 36%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+   }
+.head2{
+    width:100% ;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.btn1{
+    margin-left: 80px;
+    height: 40px;
+    width: 128px;
+    border: none;
+    background-color: rgba(250, 144, 33, 1);
+    color: white;
+    border-radius: 8px;
+}
+nav a{
+    color:black;
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.tank1{
+    position: absolute;
+width: 31px;
+height: 4px;
+left: 780px;
+top: 50px;
+background: #DC7000;
+border-radius: 20px;
+}
+.tank2{
+    position: absolute;
+width: 5px;
+height: 4px;
+left: 814px;
+top: 50px;
+background: #DC7000;
+border-radius: 20px;
+}
+/*8745*/
+.sec{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.sec1{
+    height: 100%;
+    width: 50%;
+ 
+   display: flex;
+justify-content: center;
+
+}
+
+.sec2{
+    height: 100%;
+    width: 50%;
+
+background-image: url(Rectangle\ 6.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.btn2{
+    height: 50px;
+    width: 175px;
+    font-family: 'Poppins', sans-serif;
+   
+    margin-top: 20px;
+    border: none;
+    border-radius: 18px;
+    background: linear-gradient(rgba(250, 131, 5, 1), rgba(251, 158, 60, 1));
+    color: white;
+}
+/*44*/
+.azyazi{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: flex-end;
+
+}
+/*+7845*/
+.lot{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(0, 0, 0); 
+    font-family: 'Poppins', sans-serif;
+}
+.lot1{
+   height: 80%;
+   width: 28%;
+   background-color: rgba(28, 20, 15, 1);
+   display: flex;
+   justify-content: center;
+  
+   border-radius: 30px;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+}
+
+.lot2{
+    height: 80%;
+    width: 28%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+}
+.lot3{
+   height: 80%;
+   width: 28%;
+   background-color: rgba(28, 20, 15, 1);
+   display: flex;
+   justify-content: center;
+   border-radius: 30px;
+   color: white;
+}
+/*84512*/
+.artic{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+/*524*/
+.yazi42{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+    color: aliceblue;
+}
+/*874512*/
+.tex{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.tex1{
+    height: 60%;
+    width: 18%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.tex2{
+    height: 60%;
+    width:  18%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.tex3{
+    height: 60%;
+    width: 18%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.tex4{
+    height: 60%;
+    width: 18%;
+    background-color: rgba(28, 20, 15, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+/*8545*/
+.yazi4{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    color: #FFFFFF;
+}
+.yazi4even{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.big{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.bigeven{
+    height: 56%;
+    width: 88%;
+    background-color: #1C140F;
+    border-radius: 20px;
+    display: flex;
+}
+.big1{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big2{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qeliz{
+    height: 60px;
+    width: 420px;
+    border-radius: 20px;
+   background-color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.qeliz1{
+    height: 88%;
+    width: 60%;
+background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qeliz2{
+    height: 88%;
+    width: 38%;
+   background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn5{
+    height: 46px;
+    width: 130px;
+    border: none;
+    margin-left: 14px;
+    border-radius: 14px;
+    background-color: #DC7000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footereven{
+    height: 80%;
+    width: 90%;
+
+    display: flex;
+}
+.foot1{
+    height: 100%;
+    width: 25%;
+
+}
+.foot2{
+    height: 100%;
+    width: 25%;
+}
+.foot3{
+    height: 100%;
+    width: 25%;
+}
+.foot4{
+    height: 100%;
+    width: 25%;
+}
+/*84*/
+.yazi5{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
